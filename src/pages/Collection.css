@@ -1,0 +1,11 @@
+.filter-box{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.filter-box img{
+    height: 15px;
+    margin-top: 13px;
+    
+}
