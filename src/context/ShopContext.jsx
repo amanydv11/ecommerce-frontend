@@ -5,8 +5,8 @@ import { toast } from "react-toastify";
 import {useNavigate} from "react-router-dom"
 
  const ShopContextProvider=(props)=>{
-    const currency='$';
-    const delivery_fee =10;
+    const currency='₹';
+    const delivery_fee =50;
     const [search, setSearch]= useState('');
     const [showSearch, setShowSearch]= useState(false)
     const [cartItems, setCartItems]=useState({});
