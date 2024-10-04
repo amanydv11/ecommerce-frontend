@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import {ShopContext} from '../context/ShopContext'
 import { assets } from '../assets/assets'
-import '../pages/collection.css'
 import Title from '../components/Title'
 import ProductItem from '../components/ProductItem'
 const Collection = () => {
